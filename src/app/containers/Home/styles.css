@@ -1,0 +1,21 @@
+#form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 98vh;
+  }
+  
+  
+#form-container #train-effective-icon {
+    margin-bottom: 30px;
+    height: 100px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,29 @@
+#input-container {
+    width: 100%
+}
+
+#input-container input[type="text"] {
+    padding: 18px;
+    font-size: 17px;
+    border: 1px solid #dfe1e5;
+    width: 50%;
+    background: #fff;
+    border-radius: 28px;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  }
+  
+  #input-container input:focus {
+    outline: none;
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    #input-container input[type="text"] {
+      width: 90%
+    }
+   }
+ 
+@media all and (max-width: 480px) { 
+  #input-container input[type="text"] {
+    width: 90%
+  }
+}
